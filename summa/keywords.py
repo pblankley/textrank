@@ -1,7 +1,7 @@
 from itertools import combinations as _combinations
 from queue import Queue
 
-from .pagerank_weighted import pagerank_weighted_scipy as _pagerank
+from .pagerank_weighted import pagerank_weighted as _pagerank
 from .preprocessing.textcleaner import clean_text_by_word as _clean_text_by_word
 from .preprocessing.textcleaner import tokenize_by_word as _tokenize_by_word
 from .commons import build_graph as _build_graph
